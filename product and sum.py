@@ -6,5 +6,5 @@ def sumandpro(arr):
     for num in arr:
         product=product*num
     print("sum is:",str(sum)+  "\nproduct is:",str(product))
-inp=list(map(int,input().split()))
-sumandpro(inp)
+input=list(map(int,input().split()))
+sumandpro(input)
