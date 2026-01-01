@@ -12,3 +12,5 @@ def maxproduct(arr):
                 arr[i],arr[j]=arr[j],arr[i] 
     return arr[0]*arr[1]
 print(maxproduct([1,7,3,4,9,5]))
+
+
